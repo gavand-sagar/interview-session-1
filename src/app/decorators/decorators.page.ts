@@ -7,7 +7,7 @@ import { LegacyModule } from './legacy.module';
   selector: 'app-decorators-page',
   imports: [CounterOld, CounterNew, LegacyModule],
   template: `
-    <h1>4. &#64;Input / &#64;Output decorators and NgModule</h1>
+    <!-- <h1>4. &#64;Input / &#64;Output decorators and NgModule</h1>
     <p class="hook">Most code you will maintain at your first job still looks like this.</p>
 
     <div class="box">
@@ -31,7 +31,7 @@ import { LegacyModule } from './legacy.module';
         <p><code>&#64;Input()</code> became <code>input()</code>. <code>&#64;Output()</code> + EventEmitter became <code>output()</code>. ngOnChanges became <code>linkedSignal</code> / <code>computed</code>.</p>
         <p>The parent does not care: <code>[start]</code> and <code>(changed)</code> look the same for both.</p>
       </details>
-    </div>
+    </div> -->
 
     <div class="box">
       <h2>Demo 2: Life inside an NgModule</h2>
